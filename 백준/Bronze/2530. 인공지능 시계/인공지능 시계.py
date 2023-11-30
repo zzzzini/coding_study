@@ -1,0 +1,21 @@
+H,M,S = input().split()
+h,m,s = int(H),int(M),int(S)
+add = int(input())
+mad = int((add % 3600) / 60)
+had = int(add/3600)
+sad = (add % 3600) % 60
+news = s + sad
+if news >= 60:
+    plus = int(news/60)
+    m += plus
+    news -= 60 * plus
+newm = m + mad
+if newm >= 60:
+    plus = int(newm/60)
+    h += plus
+    newm -= 60 * plus
+newh = h + had
+if h + had >= 24:
+    plus = int(newh/24)
+    newh -= 24 * plus
+print(newh, newm, news)
