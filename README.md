@@ -135,6 +135,8 @@
 |3009. 네 번째 점|[링크](./%EB%B0%B1%EC%A4%80/Bronze/3009.%E2%80%85%EB%84%A4%E2%80%85%EB%B2%88%EC%A7%B8%E2%80%85%EC%A0%90/README.md)|
 |3035. 스캐너|[링크](./%EB%B0%B1%EC%A4%80/Bronze/3035.%E2%80%85%EC%8A%A4%EC%BA%90%EB%84%88/%EC%8A%A4%EC%BA%90%EB%84%88.py)|
 |3040. 백설 공주와 일곱 난쟁이|[링크](./%EB%B0%B1%EC%A4%80/Bronze/3040.%E2%80%85%EB%B0%B1%EC%84%A4%E2%80%85%EA%B3%B5%EC%A3%BC%EC%99%80%E2%80%85%EC%9D%BC%EA%B3%B1%E2%80%85%EB%82%9C%EC%9F%81%EC%9D%B4/README.md)|
+|3046. R2|[링크](./%EB%B0%B1%EC%A4%80/Bronze/3046.%E2%80%85R2/README.md)|
+|3047. ABC|[링크](./%EB%B0%B1%EC%A4%80/Bronze/3047.%E2%80%85ABC/README.md)|
 ### 🚀 Gold
 | 문제번호 | 링크 |
 | ----- | ----- |
