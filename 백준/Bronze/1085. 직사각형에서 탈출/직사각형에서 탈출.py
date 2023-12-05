@@ -1,7 +1,6 @@
-X,Y,W,H = input().split()
-x,y,w,h = int(X),int(Y),int(W),int(H)
-xmin = w
-ymin = h
+x,y,w,h = map(int, input().split())
+xmin = 0
+ymin = 0
 if x < w-x:
     xmin = x
 else:
