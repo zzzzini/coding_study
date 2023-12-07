@@ -9,14 +9,7 @@ if lefta == 0:
 if leftb == 0:
     leftb += 4
 
-if lefta >= leftb:
-    big = lefta
-    small = leftb
-else:
-    big = leftb
-    small = lefta
-
-disc = big - small
+disc = abs(lefta - leftb)
 if lefta > disc:
     newa = a - disc
 else:
