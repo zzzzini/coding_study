@@ -9,10 +9,7 @@ if lefta == 0:
 if leftb == 0:
     leftb += 4
 
-if lefta > leftb:
-    big = lefta
-    small = leftb
-elif lefta == leftb:
+if lefta >= leftb:
     big = lefta
     small = leftb
 else:
