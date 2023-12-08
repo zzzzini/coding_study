@@ -138,6 +138,7 @@
 |16430. 제리와 톰|[링크](./%EB%B0%B1%EC%A4%80/Bronze/16430.%E2%80%85%EC%A0%9C%EB%A6%AC%EC%99%80%E2%80%85%ED%86%B0/%EC%A0%9C%EB%A6%AC%EC%99%80%E2%80%85%ED%86%B0.py)|
 |17009. Winning Score|[링크](./%EB%B0%B1%EC%A4%80/Bronze/17009.%E2%80%85Winning%E2%80%85Score/Winning%E2%80%85Score.py)|
 |17010. Time to Decompress|[링크](./%EB%B0%B1%EC%A4%80/Bronze/17010.%E2%80%85Time%E2%80%85to%E2%80%85Decompress/README.md)|
+|1703. 생장점|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1703.%E2%80%85%EC%83%9D%EC%9E%A5%EC%A0%90/%EC%83%9D%EC%9E%A5%EC%A0%90.py)|
 |17094. Serious Problem|[링크](./%EB%B0%B1%EC%A4%80/Bronze/17094.%E2%80%85Serious%E2%80%85Problem/README.md)|
 |1712. 손익분기점|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1712.%E2%80%85%EC%86%90%EC%9D%B5%EB%B6%84%EA%B8%B0%EC%A0%90/README.md)|
 |1731. 추론|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1731.%E2%80%85%EC%B6%94%EB%A1%A0/README.md)|
