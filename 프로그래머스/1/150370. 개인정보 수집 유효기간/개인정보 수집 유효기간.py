@@ -10,7 +10,6 @@ def solution(today, terms, privacies):
         n_t[key] = int(value)
     no = 0
     for item in privacies:
-        count = 0
         p_y = int(item[0:4])
         p_m = int(item[5:7])
         p_d = int(item[8:10])
