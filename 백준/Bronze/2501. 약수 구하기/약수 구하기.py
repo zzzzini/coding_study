@@ -5,10 +5,7 @@ for i in range(1,n//2,1):
         a.append(i)
         if i != n//i:
             a.append(n//i)
-for i in range(0,len(a)-1,1):
-    for j in range(i+1,len(a),1):
-        if a[i] > a[j]:
-            a[i], a[j] = a[j], a[i]
+a.sort()
 if len(a) < k:
     print(0)
 else:
