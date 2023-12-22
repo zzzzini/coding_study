@@ -11,8 +11,7 @@ temp = []
 index = 0
 for key, val in x.items():
     if int(val) >= 5:
-        temp.insert(index, key)
-        index += 1
+        temp.append(key)
 temp.sort()
 answer = ""
 for i in temp:
