@@ -1,7 +1,5 @@
-H1, M1, S1 = input().split(":")
-H2, M2, S2 = input().split(":")
-h1, m1, s1 = int(H1), int(M1), int(S1)
-h2, m2, s2 = int(H2), int(M2), int(S2)
+h1, m1, s1 = map(int, input().split(":"))
+h2, m2, s2 = map(int, input().split(":"))
 if s2 > s1:
     s = s2 - s1
 elif s2 == s1:
@@ -25,12 +23,9 @@ elif h2 == h1:
 else:
     h = h2 + 24 - h1
 
-H, M, S = str(h), str(m), str(s)
-if len(H) != 2:
-    H = "0" + H
-if len(M) != 2:
-    M = "0" + M
-if len(S) != 2:
-    S = "0" + S
+time = [str(h), str(m), str(s)]
+for i in range(len(time)):
+    if len(time[i]) != 2:
+        time[i] = "0" + time[i]
 
-print(H+":"+M+":"+S)
+print(time[0]+":"+time[1]+":"+time[2])
