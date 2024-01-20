@@ -1,21 +1,13 @@
-s = input().lower()
-distinct = []
-for i in range(0,len(s),1):
-    if s[i] not in distinct:
-        distinct.append(s[i])
-counter = [0] * len(distinct)
-for i in range(0,len(distinct),1):
-    for j in range(0,len(s),1):
-        if distinct[i] == s[j]:
-            counter[i] += 1
-max = 0
-index = 0
-for i in range(0,len(counter),1):
-    if counter[i] > max:
-        max = counter[i]
-        index = i
-counter.remove(max)
-if max in counter:
+word = list(input().lower())
+unique = set(word)
+u_dict = {}
+
+for item in unique:
+    u_dict[item] = word.count(item)
+
+li = [k for k, v in u_dict.items() if v == max(u_dict.values())]
+
+if len(li) > 1:
     print("?")
 else:
-    print(distinct[index].upper())
+    print(li[0].upper())
