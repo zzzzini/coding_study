@@ -1,6 +1,4 @@
 a, b = input().split()
-c = int(a[::-1]) + int(b[::-1])
-c = str(c)
-c = int(c[::-1])
-c = str(c)
+c = str(int(a[::-1]) + int(b[::-1]))
+c = str(int(c[::-1]))
 print(c)
