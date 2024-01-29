@@ -1,12 +1,12 @@
 cnt = int(input())
-core = list(map(int,input().split()))
+score = list(map(int,input().split()))
 max = 0
 sum = 0.0
 for i in range(0,cnt,1):
-    if core[i] > max:
-        max = core[i]
+    if score[i] > max:
+        max = score[i]
 for i in range(0,cnt,1):
-    core[i] = core[i]/max*100
-    sum += core[i]
+    score[i] = score[i]/max*100
+    sum += score[i]
 avg = sum/cnt
 print(f'{avg:.2f}')
