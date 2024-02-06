@@ -7,17 +7,6 @@ dday = datetime.date(d_y, d_m, d_d)
 
 timediff = int((dday-today).days)
 
-for i in range(t_y, d_y+1, 1):
-    if i % 4 == 0 and i % 100 != 0 and i % 400 == 0:
-        if i == t_y:
-            if t_m <= 2 and d_m > 2:
-                timediff -= 1
-        elif i == d_y:
-            if d_m > 2:
-                timediff -= 1
-        else:
-            timediff -= 1
-
 flag = 1
 
 if d_y - t_y > 1000:
