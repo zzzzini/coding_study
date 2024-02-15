@@ -442,6 +442,10 @@
 |5635. 생일|[링크](./%EB%B0%B1%EC%A4%80/Silver/5635.%E2%80%85%EC%83%9D%EC%9D%BC/README.md)|
 |7568. 덩치|[링크](./%EB%B0%B1%EC%A4%80/Silver/7568.%E2%80%85%EB%8D%A9%EC%B9%98/README.md)|
 |9012. 괄호|[링크](./%EB%B0%B1%EC%A4%80/Silver/9012.%E2%80%85%EA%B4%84%ED%98%B8/README.md)|
+### 🚀 Silver II
+| 문제번호 | 링크 |
+| ----- | ----- |
+|1874. 스택 수열|[링크](./%EB%B0%B1%EC%A4%80/Silver%20II/1874.%E2%80%85%EC%8A%A4%ED%83%9D%E2%80%85%EC%88%98%EC%97%B4/README.md)|
 ### 🚀 Silver III
 | 문제번호 | 링크 |
 | ----- | ----- |
