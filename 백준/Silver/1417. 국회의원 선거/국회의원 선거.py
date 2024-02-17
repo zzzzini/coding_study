@@ -7,14 +7,13 @@ if len(li) == 1:
     print(0)
 else:
     dasom = li[0]
+    original_dasom = dasom
     other = li[1:]
-    cnt = 0
     while True:
         if dasom > max(other):
             break
 
         other[other.index(max(other))] -= 1
         dasom += 1
-        cnt += 1
-
-    print(cnt)
+        
+    print(dasom - original_dasom)
