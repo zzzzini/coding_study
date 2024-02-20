@@ -1,5 +1,4 @@
 s = input()
-idx = 0
 zero_idx = [k for k, v in enumerate(s) if v == '0']
 one_idx = [k for k, v in enumerate(s) if v == '1']
 
