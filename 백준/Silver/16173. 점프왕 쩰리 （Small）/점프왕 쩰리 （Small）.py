@@ -1,6 +1,3 @@
-import sys
-sys.setrecursionlimit(10 ** 6)
-
 n = int(input())
 board = []
 for i in range(n):
