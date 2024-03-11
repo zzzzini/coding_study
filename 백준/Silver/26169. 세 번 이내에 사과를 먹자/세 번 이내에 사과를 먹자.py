@@ -22,8 +22,7 @@ def dfs(r,c,move,cnt):
     board[r][c] = -1
 
     if cnt == 2:
-        if move <= 3:
-            bool = True
+        bool = True
         return
 
     dfs(r+1, c, move+1, cnt)
