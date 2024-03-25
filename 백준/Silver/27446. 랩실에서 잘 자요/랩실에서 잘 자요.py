@@ -1,13 +1,7 @@
-n, m = map(int, input().split())
-pages = list(map(int, input().split()))
-paper = [k+1 for k in range(n)]
-printing = [k for k in paper if k not in pages]
-
-ink = 0
-for i in range(len(printing)):
-    if i == 0:
-        ink += 7
-    else:
-        ink += min(7, (printing[i] - printing[i-1])*2)
-
-print(ink)
+n,m=map(int,input().split())
+p=list(map(int,input().split()))
+e=[k+1 for k in range(n)]
+g,r=[k for k in e if k not in p],0
+for i in range(len(g)):
+    r += 7 if i == 0 else min(7, (g[i] - g[i-1])*2)
+print(r)
